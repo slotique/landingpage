@@ -108,10 +108,36 @@
 }
 /*** Icon Animation End ***/
 
+.topbar {
+  background: black;
+}
+
+.contact {
+  color: #f2ce3d;
+}
+
+.socials {
+  color: #f2ce3d;
+  background: black;
+}
+
+.form-panel {
+    background: black;
+}
+
+.notify-btn {
+    background: #f2ce3d;
+    color: black;
+}
 
 /*** Navbar Start ***/
 .nav-bar {
-    background: var(--bs-white);
+    background: #f2ce3d;
+}
+
+.custom-button {
+    background: #f2ce3d;
+    color: black
 }
 
 .sticky-top {
@@ -131,7 +157,7 @@
 }
 
 .sticky-top .navbar-light .navbar-nav .nav-link {
-    padding: 20px 0;
+    padding: 10px 0;
     color: var(--bs-dark);
 }
 
@@ -141,12 +167,14 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 60px;
+    padding: 0px;
     transition: .5s;
+    margin: 0px;
 }
 
 .sticky-top .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 60px;
+    padding: 0px;
 }
 
 .navbar .dropdown-toggle::after {

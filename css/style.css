@@ -108,8 +108,14 @@
 }
 /*** Icon Animation End ***/
 
+.navbar-toggler {
+    background: black;
+    color: black
+}
+
 .topbar {
   background: black;
+
 }
 
 .contact {
@@ -129,6 +135,8 @@
     background: #f2ce3d;
     color: black;
 }
+
+
 
 /*** Navbar Start ***/
 .nav-bar {
